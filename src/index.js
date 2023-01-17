@@ -47,7 +47,6 @@ function decode(expr) {
   for (let i = 0; i < numLitters; i++) {
     spellExpr.push(arrayExpr.splice(0, 10).join(''));
   }
-  console.log(spellExpr);
 
   MORSE_TABLE_BC = {};
   for (let key in MORSE_TABLE) {
